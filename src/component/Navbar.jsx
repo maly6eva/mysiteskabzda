@@ -3,21 +3,21 @@ import React from "react";
 const Navbar = () => {
     return <nav className='nav'>
         <div>
-            <a href="#">Profile</a>
+            <a className='navbar' href="#">Profile</a>
         </div>
         <div>
-            <a href="#">Messages</a>
+            <a className='navbar' href="#">Messages</a>
         </div>
         <div>
-            <a href="#">News</a>
+            <a className='navbar' href="#">News</a>
         </div>
         <div>
-            <a href="#">Music</a>
+            <a  className='navbar' href="#">Music</a>
         </div>
         <div>
-            <a href="#">Settings</a>
+            <a className='navbar' href="#">Settings</a>
         </div>
     </nav>
 }
 
-export default Navbar
+export default Navbar;

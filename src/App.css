@@ -8,10 +8,6 @@
      'n c';
   grid-template-rows: 60px 1fr;
   grid-template-columns: 1fr 2fr;;
-
-
-
-
 }
 
 .header{
@@ -27,7 +23,15 @@
 .nav{
   grid-area: n;
   background-color: #eed55c;
+  font-size: 1.9rem;
+  font-family: cursive, sans-serif;
+  font-weight: bolder;
+  padding: 20px 50px;
+  gap: 1em;
 
+}
+.navbar {
+  /*padding: 30px;*/
 }
 
 .content{
