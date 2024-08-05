@@ -1,13 +1,17 @@
 .app-wrapper {
   display: grid;
-
+  margin: 0 auto;
+  width: 1200px;
 
   grid-template-areas:
-  'h, h'
-  'n, c';
-
+     'h h'
+     'n c';
   grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 1fr 2fr;;
+
+
+
+
 }
 
 .header{
@@ -16,7 +20,7 @@
 }
 
 .header img{
-  width: 120px;
+  width: 60px;
 
 }
 
@@ -29,4 +33,10 @@
 .content{
   grid-area: c;
   background-color: #7365cb;
+}
+
+.content img {
+  width: 860px;
+  height: 360px;
+
 }
