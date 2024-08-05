@@ -29,9 +29,10 @@
   padding: 20px 50px;
   gap: 1em;
 
+
 }
 .navbar {
-  /*padding: 30px;*/
+  text-decoration: none;
 }
 
 .content{
