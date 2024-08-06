@@ -2,7 +2,8 @@ import React from 'react'
 import './App.css';
 import Header from "./component/Header/Header";
 import Navbar from "./component/Navbar/Navbar";
-import Profile from "./component/Navbar/Profile/Profile";
+import Profile from "./component/Profile/Profile";
+import MyPosts from "./component/Profile/MyPosts/MyPosts";
 
 
  const App = () => {
@@ -11,9 +12,7 @@ import Profile from "./component/Navbar/Profile/Profile";
           <Header />
           <Navbar />
           <Profile />
-
-
-
+          <MyPosts />
       </div>);
  }
 
