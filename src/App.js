@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./component/Header/Header";
 import Navbar from "./component/Navbar/Navbar";
 import Profile from "./component/Profile/Profile";
-import MyPosts from "./component/Profile/MyPosts/MyPosts";
+
 
 
  const App = () => {
@@ -12,7 +12,7 @@ import MyPosts from "./component/Profile/MyPosts/MyPosts";
           <Header />
           <Navbar />
           <Profile />
-          <MyPosts />
+
       </div>);
  }
 
