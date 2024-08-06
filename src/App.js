@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 import Header from "./component/Header/Header";
 import Navbar from "./component/Navbar/Navbar";
-import Profile from "./component/Profile/Profile";
+import Profile from "./component/Navbar/Profile/Profile";
 
 
  const App = () => {
