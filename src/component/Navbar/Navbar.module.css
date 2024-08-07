@@ -11,3 +11,7 @@
 .item {
     text-decoration: none;
 }
+
+.item.active {
+    color: #ffcb69;
+}
