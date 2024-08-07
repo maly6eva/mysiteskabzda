@@ -7,19 +7,19 @@ const Navbar = () => {
    return (
        <nav className={s.nav}>
            <div className={s.item}>
-               <NavLink to="/profile">Profile</NavLink>
+               <NavLink to="/profile" className={({ isActive }) =>(isActive ? " active" : "")}>Profile</NavLink>
            </div>
            <div className={s.item}>
-               <NavLink to="/dialogs">Messages</NavLink>
+               <NavLink to="/dialogs" className={({ isActive }) =>(isActive ? " active" : "")}>Messages</NavLink>
            </div>
            <div className={s.item}>
-               <NavLink to="/news">News</NavLink>
+               <NavLink to="/news" className={({ isActive }) =>(isActive ? " active" : "")}>News</NavLink>
            </div>
            <div className={s.item}>
-               <NavLink to="/music">Music</NavLink>
+               <NavLink to="/music" className={({ isActive }) =>(isActive ? " active" : "")}>Music</NavLink>
            </div>
            <div className={s.item}>
-               <NavLink to="/settings">Settings</NavLink>
+               <NavLink to="/settings" className={({ isActive }) =>(isActive ? " active" : "")}>Settings</NavLink>
            </div>
        </nav>
    )

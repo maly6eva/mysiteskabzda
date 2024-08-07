@@ -15,6 +15,7 @@ const App = (props) => {
       <Header />
       <Navbar />
 
+<<<<<<< Updated upstream
       <div className="app-wrapper-content">
         <Routes>
 
@@ -32,6 +33,24 @@ const App = (props) => {
     </div>
   );
 };
+=======
+            <div className="app-wrapper-content">
+                <BrowserRouter>
+                    <Routes>
+                        <Route path='/profile/*' element={<Profile/>}/>
+                        <Route path='/dialogs/*' element={<Dialogs/>}/>
+                        <Route path='/news/*' element={<News/>}/>
+                        <Route path='/music/*' element={<Music/>}/>
+                        <Route path='/settings/*' element={<Settings/>}/>
+                    </Routes>
+
+                </BrowserRouter>
+
+
+            </div>
+        </div>);
+}
+>>>>>>> Stashed changes
 
 export default App;
 

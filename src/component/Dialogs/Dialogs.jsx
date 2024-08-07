@@ -3,8 +3,15 @@ import s from './Dialogs.module.css'
 
 const Dialogs = (props) => {
     return (
-        <div>
-            Dialogs
+        <div className='dialogs'>
+            <div className='dialogs-item'>
+                <div className='item'>
+                    Dima
+                </div>
+                <div className='item'>
+                    Lesha
+                </div>
+            </div>
         </div>
     )
 }
