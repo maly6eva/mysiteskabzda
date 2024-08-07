@@ -7,11 +7,11 @@
     padding: 20px 50px;
     gap: 1em;
 }
-
-.item {
+.item a{
+    color: #de1212;
     text-decoration: none;
 }
 
-.item.active {
-    color: #ffcb69;
+.item a.activeLink {
+    color: #1271de;
 }
